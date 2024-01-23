@@ -1,0 +1,14 @@
+# Massnet  ussd audit logs
+
+This script read a local database , utilises pandas in this notebook to read the logs, explod the logs and output a table / csv that can easily be analysed.
+
+## NB:
+
+Some logs need some manual intervention as they could not be automated.
+
+1. This includes but not limited to logs that have *00* to signify a step back on the ussd process flow.
+
+2. For those that has *000* to signify that there was a restart on the ussd process flow, to chose a different workflow. 
+This process has been handled adequately, however if in this work flow there is a step (1.), a manual intervention is needed for that data.
+
+# Bmugwe
